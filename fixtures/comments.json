@@ -1,0 +1,10 @@
+[
+    {
+      "model": "main.comment",
+      "fk": 1,
+      "fields": {
+        "content": "7 Singles",
+        "post": 1
+      }
+    }
+  ]

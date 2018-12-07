@@ -1,0 +1,20 @@
+[
+  {
+    "model": "main.post",
+    "fields": {
+      "title": "Seed Post Title",
+      "picture": "picture",
+      "content": "content",
+      "site_url": "siteURL"
+    }
+  },
+  {
+    "model": "main.post",
+    "fields": {
+      "title": "Seed Post Title TWO",
+      "picture": "picture",
+      "content": "content",
+      "site_url": "siteURL"
+    }
+  }
+]
