@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'django_extensions'
+    'django_extensions',
     'main'
 ]
 
@@ -80,13 +80,11 @@ WSGI_APPLICATION = 'reddit_clone.wsgi.application'
 
 DATABASES = {
     'default': {
-        'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'reddit_clone',
         'USER': 'reddit_admin',
         'PASSWORD': 'password',
         'HOST': 'localhost'
-    }
     }
 }
 
