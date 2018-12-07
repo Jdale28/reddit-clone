@@ -1,7 +1,6 @@
-from django.shortcuts import render
 from rest_framework import viewsets
+from .serializer import PostSerializer, CommentSerializer
 from .models import Post, Comment
-from .serializers import PostSerializer, CommentSerializer
 
 class PostView(viewsets.ModelViewSet):
     queryset = Post.objects.all()
